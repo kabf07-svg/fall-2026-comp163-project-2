@@ -41,3 +41,12 @@ elif choice1 == "right":
             print("=== GAME OVER ===")
         elif choice3 == "take":
             print("=== YOU WIN ===")
+        else:
+            print("Invalid choice.")
+    elif choice2 == "fight":
+        print("=== GAME OVER ===")
+    else:
+        print("Invalid choice.")
+
+else:
+    print("Invalid choice.")
