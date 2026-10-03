@@ -27,3 +27,17 @@ if choice1 == "left":
         print("=== GAME OVER ===")
     else:
         print("Invalid choice.")
+elif choice1 == "right":
+    health -= 5
+    print(f"Health: {health}")
+    
+    choice2 = input("Do you fight or run? ")
+    if choice2 == "run":
+        health -= 2
+        print(f"Health: {health}")
+        
+        choice3 = input("Do you take or leave? ")
+        if choice3 == "leave":
+            print("=== GAME OVER ===")
+        elif choice3 == "take":
+            print("=== YOU WIN ===")
